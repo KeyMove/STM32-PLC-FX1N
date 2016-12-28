@@ -1,0 +1,83 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Administrator\Desktop\CodePro\mcu\UartProtocol\UartProtocol.uvproj
+Project File Date:  06/10/2015
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling startup_stm32f10x_md.s...
+compiling main.c...
+compiling uart.c...
+src\uart.c(17): error:  #20: identifier "RCC" is undefined
+        RCC->APB2ENR|=RCC_APB2ENR_IOPAEN;
+src\uart.c(17): error:  #20: identifier "RCC_APB2ENR_IOPAEN" is undefined
+        RCC->APB2ENR|=RCC_APB2ENR_IOPAEN;
+src\uart.c(18): error:  #20: identifier "RCC_APB2ENR_USART1EN" is undefined
+        RCC->APB2ENR|=RCC_APB2ENR_USART1EN;
+src\uart.c(19): error:  #20: identifier "GPIOA" is undefined
+        GPIOA->CRH&=0xfffff00f;
+src\uart.c(21): error:  #20: identifier "GPIO_ODR_ODR10" is undefined
+        GPIOA->ODR|=GPIO_ODR_ODR10|GPIO_ODR_ODR9;
+src\uart.c(21): error:  #20: identifier "GPIO_ODR_ODR9" is undefined
+        GPIOA->ODR|=GPIO_ODR_ODR10|GPIO_ODR_ODR9;
+src\uart.c(22): error:  #20: identifier "USART1" is undefined
+        USART1->CR1=USART1->CR2=USART1->CR3=0;
+src\uart.c(23): error:  #20: identifier "USART_CR1_RE" is undefined
+        USART1->CR1=USART_CR1_RE|USART_CR1_TE|USART_CR1_RXNEIE;
+src\uart.c(23): error:  #20: identifier "USART_CR1_TE" is undefined
+        USART1->CR1=USART_CR1_RE|USART_CR1_TE|USART_CR1_RXNEIE;
+src\uart.c(23): error:  #20: identifier "USART_CR1_RXNEIE" is undefined
+        USART1->CR1=USART_CR1_RE|USART_CR1_TE|USART_CR1_RXNEIE;
+src\uart.c(24): warning:  #223-D: function "NVIC_SetPriority" declared implicitly
+        NVIC_SetPriority(USART1_IRQn,2);
+src\uart.c(24): error:  #20: identifier "USART1_IRQn" is undefined
+        NVIC_SetPriority(USART1_IRQn,2);
+src\uart.c(25): warning:  #223-D: function "NVIC_EnableIRQ" declared implicitly
+        NVIC_EnableIRQ(USART1_IRQn);
+src\uart.c(34): error:  #20: identifier "USART1" is undefined
+        USART1->CR1&=~USART_CR1_UE;
+src\uart.c(34): error:  #20: identifier "USART_CR1_UE" is undefined
+        USART1->CR1&=~USART_CR1_UE;
+src\uart.c(44): error:  #20: identifier "USART1" is undefined
+        USART1->DR=dat;
+src\uart.c(45): error:  #20: identifier "USART_SR_TC" is undefined
+        while(!(USART1->SR&USART_SR_TC));
+src\uart.c(55): error:  #20: identifier "USART1" is undefined
+        u8 dat=USART1->DR;
+src\uart.c: 2 warnings, 16 errors
+".\output\UartProtocol.axf" - 16 Error(s), 2 Warning(s).
+Target not created
+ing(s).
+Target not created
+\stm32f10x.h(509): error:  #84: invalid combination of type specifiers
+  typedef uint16_t u16;
+C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include\stm32f10x.h(510): error:  #84: invalid combination of type specifiers
+  typedef uint8_t  u8;
+src\uart.c: 3 warnings, 9 errors
+".\output\UartProtocol.axf" - 9 Error(s), 3 Warning(s).
+Target not created
+pedef uint32_t  u32;
+C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include\stm32f10x.h(509): error:  #84: invalid combination of type specifiers
+  typedef uint16_t u16;
+C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include\stm32f10x.h(510): error:  #84: invalid combination of type specifiers
+  typedef uint8_t  u8;
+C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include\stm32f10x.h(516): warning:  #83-D: type qualifier specified more than once
+  typedef __IO uint32_t  vu32;
+C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include\stm32f10x.h(516): error:  #84: invalid combination of type specifiers
+  typedef __IO uint32_t  vu32;
+C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include\stm32f10x.h(517): warning:  #83-D: type qualifier specified more than once
+  typedef __IO uint16_t vu16;
+C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include\stm32f10x.h(517): error:  #84: invalid combination of type specifiers
+  typedef __IO uint16_t vu16;
+C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include\stm32f10x.h(518): warning:  #83-D: type qualifier specified more than once
+  typedef __IO uint8_t  vu8;
+C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include\stm32f10x.h(518): error:  #84: invalid combination of type specifiers
+  typedef __IO uint8_t  vu8;
+src\uartprotocol.c: 6 warnings, 15 errors
+".\output\UartProtocol.axf" - 15 Error(s), 6 Warning(s).
+Target not created
+
+Target not created

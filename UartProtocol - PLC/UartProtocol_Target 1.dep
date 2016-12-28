@@ -1,0 +1,140 @@
+Dependencies for Project 'UartProtocol', Target 'Target 1': (DO NOT MODIFY !)
+F (.\src\startup_stm32f10x_md.s)(0x4F1E2E3C)(--cpu Cortex-M3 -g --apcs=interwork -I "D:\Program Files\Keil_v5\ARM\RV31\INC"-I "D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include"-I "D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"--list .\output\startup_stm32f10x_md.lst --xref -o .\output\startup_stm32f10x_md.o --depend .\output\startup_stm32f10x_md.d)
+F (.\src\main.c)(0x57BC0DE6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I "D:\Program Files\Keil_v5\ARM\RV31\INC"-I "D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include"-I "D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-DSTM32F10X_MD-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d)
+I (D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (src\uartprotocol.h)(0x57BC0558)
+I (src\mcuhead.h)(0x558D0243)
+I (src\Uart.h)(0x575E8918)
+I (src\flash.h)(0x558CC2D3)
+I (src\in.h)(0x558CBA13)
+I (src\out.h)(0x558CBA13)
+I (src\encode.h)(0x557FF7F0)
+I (src\sled.h)(0x57BBB87C)
+I (src\pulse.h)(0x558CBDED)
+I (src\timer.h)(0x565BC468)
+I (src\runner.h)(0x57BBBADB)
+I (src\FX1N.h)(0x57B6EF74)
+F (.\src\uart.c)(0x5770C8CC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I "D:\Program Files\Keil_v5\ARM\RV31\INC"-I "D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include"-I "D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-DSTM32F10X_MD-o .\output\uart.o --omf_browse .\output\uart.crf --depend .\output\uart.d)
+I (src\uart.H)(0x575E8918)
+I (src\mcuhead.h)(0x558D0243)
+I (D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+F (.\src\uartprotocol.c)(0x57BC0558)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I "D:\Program Files\Keil_v5\ARM\RV31\INC"-I "D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include"-I "D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-DSTM32F10X_MD-o .\output\uartprotocol.o --omf_browse .\output\uartprotocol.crf --depend .\output\uartprotocol.d)
+I (src\uartprotocol.h)(0x57BC0558)
+I (src\mcuhead.h)(0x558D0243)
+I (D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (src\uart.h)(0x575E8918)
+F (.\src\in.c)(0x558CBF38)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I "D:\Program Files\Keil_v5\ARM\RV31\INC"-I "D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include"-I "D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-DSTM32F10X_MD-o .\output\in.o --omf_browse .\output\in.crf --depend .\output\in.d)
+I (src\in.h)(0x558CBA13)
+I (src\mcuhead.h)(0x558D0243)
+I (D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+F (.\src\out.c)(0x558CD58C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I "D:\Program Files\Keil_v5\ARM\RV31\INC"-I "D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include"-I "D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-DSTM32F10X_MD-o .\output\out.o --omf_browse .\output\out.crf --depend .\output\out.d)
+I (src\out.h)(0x558CBA13)
+I (src\mcuhead.h)(0x558D0243)
+I (D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+F (.\src\sled.c)(0x57BBB87C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I "D:\Program Files\Keil_v5\ARM\RV31\INC"-I "D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include"-I "D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-DSTM32F10X_MD-o .\output\sled.o --omf_browse .\output\sled.crf --depend .\output\sled.d)
+I (src\sled.h)(0x57BBB87C)
+I (src\mcuhead.h)(0x558D0243)
+I (D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+F (.\src\pulse.c)(0x559100F6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I "D:\Program Files\Keil_v5\ARM\RV31\INC"-I "D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include"-I "D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-DSTM32F10X_MD-o .\output\pulse.o --omf_browse .\output\pulse.crf --depend .\output\pulse.d)
+I (src\pulse.h)(0x558CBDED)
+I (src\mcuhead.h)(0x558D0243)
+I (D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x53463A44)
+F (.\src\encode.c)(0x558D0502)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I "D:\Program Files\Keil_v5\ARM\RV31\INC"-I "D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include"-I "D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-DSTM32F10X_MD-o .\output\encode.o --omf_browse .\output\encode.crf --depend .\output\encode.d)
+I (src\encode.h)(0x557FF7F0)
+I (src\mcuhead.h)(0x558D0243)
+I (D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+F (.\src\runner.c)(0x57BBF29B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I "D:\Program Files\Keil_v5\ARM\RV31\INC"-I "D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include"-I "D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-DSTM32F10X_MD-o .\output\runner.o --omf_browse .\output\runner.crf --depend .\output\runner.d)
+I (src\runner.h)(0x57BBBADB)
+I (src\mcuhead.h)(0x558D0243)
+I (D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (src\uartprotocol.h)(0x57BC0558)
+I (src\Flash.h)(0x558CC2D3)
+I (src\bytestream.h)(0x57BAE3C4)
+I (src\pulse.h)(0x558CBDED)
+I (src\out.h)(0x558CBA13)
+I (src\in.h)(0x558CBA13)
+I (src\timer.h)(0x565BC468)
+I (src\sled.h)(0x57BBB87C)
+I (src\FX1N.h)(0x57B6EF74)
+F (.\src\bytestream.c)(0x57BAE3C4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I "D:\Program Files\Keil_v5\ARM\RV31\INC"-I "D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include"-I "D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-DSTM32F10X_MD-o .\output\bytestream.o --omf_browse .\output\bytestream.crf --depend .\output\bytestream.d)
+I (src\bytestream.h)(0x57BAE3C4)
+I (src\mcuhead.h)(0x558D0243)
+I (D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+F (.\src\Timer.c)(0x565BDE36)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I "D:\Program Files\Keil_v5\ARM\RV31\INC"-I "D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include"-I "D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-DSTM32F10X_MD-o .\output\timer.o --omf_browse .\output\timer.crf --depend .\output\timer.d)
+I (src\Timer.H)(0x565BC468)
+I (src\mcuhead.h)(0x558D0243)
+I (D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+F (.\src\FX1N.c)(0x57BBBBD9)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I "D:\Program Files\Keil_v5\ARM\RV31\INC"-I "D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include"-I "D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-DSTM32F10X_MD-o .\output\fx1n.o --omf_browse .\output\fx1n.crf --depend .\output\fx1n.d)
+I (src\FX1N.h)(0x57B6EF74)
+I (src\mcuhead.h)(0x558D0243)
+I (D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+F (.\src\flash.c)(0x5655687D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I "D:\Program Files\Keil_v5\ARM\RV31\INC"-I "D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include"-I "D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-DSTM32F10X_MD-o .\output\flash.o --omf_browse .\output\flash.crf --depend .\output\flash.d)
+I (src\flash.h)(0x558CC2D3)
+I (src\mcuhead.h)(0x558D0243)
+I (D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x53BA0D60)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm3.h)(0x538426C6)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)

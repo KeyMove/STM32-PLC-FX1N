@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\UartProtocol\src\bitstream.c" />
+    <ClCompile Include="..\UartProtocol\src\bytestream.c" />
+    <ClCompile Include="..\UartProtocol\src\encode.c" />
+    <ClCompile Include="..\UartProtocol\src\flash.c" />
+    <ClCompile Include="..\UartProtocol\src\in.c" />
+    <ClCompile Include="..\UartProtocol\src\main.c" />
+    <ClCompile Include="..\UartProtocol\src\out.c" />
+    <ClCompile Include="..\UartProtocol\src\pulse.c" />
+    <ClCompile Include="..\UartProtocol\src\runner.c" />
+    <ClCompile Include="..\UartProtocol\src\sled.c" />
+    <ClCompile Include="..\UartProtocol\src\Timer.c" />
+    <ClCompile Include="..\UartProtocol\src\uart.c" />
+    <ClCompile Include="..\UartProtocol\src\uartprotocol.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\UartProtocol\src\bitstream.h" />
+    <ClInclude Include="..\UartProtocol\src\bytestream.h" />
+    <ClInclude Include="..\UartProtocol\src\encode.h" />
+    <ClInclude Include="..\UartProtocol\src\flash.h" />
+    <ClInclude Include="..\UartProtocol\src\in.h" />
+    <ClInclude Include="..\UartProtocol\src\mcuhead.h" />
+    <ClInclude Include="..\UartProtocol\src\out.h" />
+    <ClInclude Include="..\UartProtocol\src\pulse.h" />
+    <ClInclude Include="..\UartProtocol\src\runner.h" />
+    <ClInclude Include="..\UartProtocol\src\sled.h" />
+    <ClInclude Include="..\UartProtocol\src\Timer.h" />
+    <ClInclude Include="..\UartProtocol\src\uart.h" />
+    <ClInclude Include="..\UartProtocol\src\uartprotocol.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\UartProtocol\src\startup_stm32f10x_md.s" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{71981293-8F7A-4F61-BECC-FCBB4625304D}</ProjectGuid>
+    <RootNamespace>STM32</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>F:\dest\CodePro\vshead;$(IncludePath)</IncludePath>
+    <ReferencePath>F:\dest\CodePro\vshead;$(ReferencePath)</ReferencePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
